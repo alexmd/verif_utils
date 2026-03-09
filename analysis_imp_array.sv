@@ -2,7 +2,7 @@
 // Usage example:
 // # Declare
 //   `uvm_analysis_imp_array_decl(_rcv)
-//   uvm_analysis_imp_array_rcv #(my_item, my_component) rcv_imp[N_ERA_PORTS];
+//   uvm_analysis_imp_array_rcv #(my_item, my_component) rcv_imp[NUM_PORTS];
 //
 // # Instantiate
 //   function new(string name = "", uvm_component parent);
